@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rootLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+    android:id="@+id/textLayout"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<EditText
+	    android:text="Enter source address here"
+	    android:id="@+id/addr1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>		
+	
+	<EditText
+		android:id="@+id/addr2"
+	    android:text="Enter destination here"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+	
+    <LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<Button
+		android:id="@+id/addDest"
+	    android:text="Add Dest"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	 	android:layout_weight="1"/>
+	
+	<Button
+		android:id="@+id/showMap"
+	    android:text="Show Map"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	  	android:layout_weight="1"/>
+        
+    </LinearLayout>
+        
+</LinearLayout>
